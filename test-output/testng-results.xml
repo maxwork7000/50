@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1512" started-at="2019-09-10T15:56:29 PDT" finished-at="2019-09-10T15:56:30 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1512" started-at="2019-09-10T15:56:29 PDT" finished-at="2019-09-10T15:56:30 PDT">
+      <class name="core.XSDValidationTest">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@4a9f80d3]" test-instance-name="BAT-01.03 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="14" started-at="2019-09-10T15:56:29 PDT" finished-at="2019-09-10T15:56:29 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.XSDValidationTest.test(java.lang.String,java.lang.String,java.lang.String) throws org.xml.sax.SAXException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5bcb04cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@4a9f80d3]" test-instance-name="BAT-01.03 (XSD Validation Type # 3)" name="test" duration-ms="983" started-at="2019-09-10T15:56:29 PDT" data-provider="dp" finished-at="2019-09-10T15:56:30 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAT-01.01 (XSD Validation Type # 1)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[src/resources/test_data/xsd/bat/bat_t1.xsd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://alex.academy/xml/bat.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@4a9f80d3]" test-instance-name="BAT-01.03 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="1" started-at="2019-09-10T15:56:30 PDT" finished-at="2019-09-10T15:56:30 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.XSDValidationTest.test(java.lang.String,java.lang.String,java.lang.String) throws org.xml.sax.SAXException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@385e36d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@4a9f80d3]" test-instance-name="BAT-01.03 (XSD Validation Type # 3)" name="test" duration-ms="165" started-at="2019-09-10T15:56:30 PDT" data-provider="dp" finished-at="2019-09-10T15:56:30 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAT-01.02 (XSD Validation Type # 2)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[src/resources/test_data/xsd/bat/bat_t2.xsd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://alex.academy/xml/bat.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@4a9f80d3]" test-instance-name="BAT-01.03 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="1" started-at="2019-09-10T15:56:30 PDT" finished-at="2019-09-10T15:56:30 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.XSDValidationTest.test(java.lang.String,java.lang.String,java.lang.String) throws org.xml.sax.SAXException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2fc2a205]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@4a9f80d3]" test-instance-name="BAT-01.03 (XSD Validation Type # 3)" name="test" duration-ms="159" started-at="2019-09-10T15:56:30 PDT" data-provider="dp" finished-at="2019-09-10T15:56:30 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAT-01.03 (XSD Validation Type # 3)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[src/resources/test_data/xsd/bat/bat_t3.xsd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://alex.academy/xml/bat.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- core.XSDValidationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

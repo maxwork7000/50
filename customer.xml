@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer id="123456">
+    <firstname>Alex</firstname>
+    <lastname>Moore</lastname>
+    <phone>415 555-1212</phone>
+    <email>alex_moore@gmail.com</email>
+</customer>

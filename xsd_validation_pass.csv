@@ -1,0 +1,3 @@
+BAT-01.01 (XSD Validation Type # 1),resources/xsd/bat_t1.xsd,http://alex.academy/xml/bat.xml
+BAT-01.02 (XSD Validation Type # 2),resources/xsd/bat_t2.xsd,http://alex.academy/xml/bat.xml
+BAT-01.03 (XSD Validation Type # 3),resources/xsd/bat_t3.xsd,http://alex.academy/xml/bat.xml

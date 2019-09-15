@@ -1,0 +1,117 @@
+{
+  "uid" : "e3989b1cb5fc270c",
+  "name" : "test",
+  "fullName" : "core.XSDValidationTest.test",
+  "historyId" : "cdcf10d50008767f094bac7c1ce0fb1f",
+  "time" : {
+    "start" : 1568228398665,
+    "stop" : 1568228399420,
+    "duration" : 755
+  },
+  "description" : "XML Validation using SchemaFactory",
+  "descriptionHtml" : "<p>XML Validation using SchemaFactory</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "XML Validation using SchemaFactory",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test Case: BAT-01.01 (XSD Validation Type # 1)",
+      "time" : {
+        "start" : 1568228398693,
+        "stop" : 1568228399417,
+        "duration" : 724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tc_id",
+        "value" : "BAT-01.01 (XSD Validation Type # 1)"
+      }, {
+        "name" : "xsd_file",
+        "value" : "resources/xsd/bat_t1.xsd"
+      }, {
+        "name" : "xml_url",
+        "value" : "http://alex.academy/xml/bat.xml"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.XSDValidationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.XSDValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "BAT"
+  }, {
+    "name" : "suite",
+    "value" : "XSD Validation"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.XSDValidationTest"
+  }, {
+    "name" : "host",
+    "value" : "L-C02V267CHTD6"
+  }, {
+    "name" : "thread",
+    "value" : "28142@L-C02V267CHTD6.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "XSD Validation Test"
+  }, {
+    "name" : "epic",
+    "value" : "BAT"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "BAT-01.01 (XSD Validation Type # 1)"
+  }, {
+    "name" : "arg1",
+    "value" : "resources/xsd/bat_t1.xsd"
+  }, {
+    "name" : "arg2",
+    "value" : "http://alex.academy/xml/bat.xml"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e3989b1cb5fc270c.json",
+  "parameterValues" : [ "BAT-01.01 (XSD Validation Type # 1)", "resources/xsd/bat_t1.xsd", "http://alex.academy/xml/bat.xml" ]
+}

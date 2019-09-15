@@ -1,0 +1,49 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "BAT",
+    "children" : [ {
+      "name" : "XSD Validation Test",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "e3989b1cb5fc270c",
+        "parentUid" : "ee6a9a5acd7c7a011705316b4bbdd796",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568228398665,
+          "stop" : 1568228399420,
+          "duration" : 755
+        },
+        "flaky" : false,
+        "parameters" : [ "BAT-01.01 (XSD Validation Type # 1)", "resources/xsd/bat_t1.xsd", "http://alex.academy/xml/bat.xml" ]
+      }, {
+        "name" : "test",
+        "uid" : "563db622460e26a7",
+        "parentUid" : "ee6a9a5acd7c7a011705316b4bbdd796",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568228399509,
+          "stop" : 1568228399671,
+          "duration" : 162
+        },
+        "flaky" : false,
+        "parameters" : [ "BAT-01.02 (XSD Validation Type # 2)", "resources/xsd/bat_t2.xsd", "http://alex.academy/xml/bat.xml" ]
+      }, {
+        "name" : "test",
+        "uid" : "9751e5d33a207771",
+        "parentUid" : "ee6a9a5acd7c7a011705316b4bbdd796",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568228399682,
+          "stop" : 1568228399842,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "parameters" : [ "BAT-01.03 (XSD Validation Type # 3)", "resources/xsd/bat_t3.xsd", "http://alex.academy/xml/bat.xml" ]
+      } ],
+      "uid" : "ee6a9a5acd7c7a011705316b4bbdd796"
+    } ],
+    "uid" : "d0a0b61884ca1c73342715a08b52186e"
+  } ]
+}

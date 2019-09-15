@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","core.XSDValidationTest.test","755","XML Validation using SchemaFactory"
+"passed","core.XSDValidationTest.test","160","XML Validation using SchemaFactory"
+"passed","core.XSDValidationTest.test","162","XML Validation using SchemaFactory"

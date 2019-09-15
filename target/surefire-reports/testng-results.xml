@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BAT" duration-ms="1318" started-at="2019-09-11T11:59:58 PDT" finished-at="2019-09-11T11:59:59 PDT">
+    <groups>
+    </groups>
+    <test name="XSD Validation" duration-ms="1318" started-at="2019-09-11T11:59:58 PDT" finished-at="2019-09-11T11:59:59 PDT">
+      <class name="core.XSDValidationTest">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@4e4efc1b]" name="test" duration-ms="823" started-at="2019-09-11T11:59:58 PDT" data-provider="dp" finished-at="2019-09-11T11:59:59 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAT-01.01 (XSD Validation Type # 1)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[resources/xsd/bat_t1.xsd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://alex.academy/xml/bat.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@4e4efc1b]" name="test" duration-ms="163" started-at="2019-09-11T11:59:59 PDT" data-provider="dp" finished-at="2019-09-11T11:59:59 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAT-01.02 (XSD Validation Type # 2)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[resources/xsd/bat_t2.xsd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://alex.academy/xml/bat.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@4e4efc1b]" name="test" duration-ms="163" started-at="2019-09-11T11:59:59 PDT" data-provider="dp" finished-at="2019-09-11T11:59:59 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAT-01.03 (XSD Validation Type # 3)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[resources/xsd/bat_t3.xsd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://alex.academy/xml/bat.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- core.XSDValidationTest -->
+    </test> <!-- XSD Validation -->
+  </suite> <!-- BAT -->
+</testng-results>

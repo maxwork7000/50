@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees xsi:noNamespaceSchemaLocation="employees.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<employee id="385450">
+		<firstname>Alex</firstname>
+		<lastname>Moore</lastname>
+		<title>SDET</title>
+		<hiredate>December 10, 1990</hiredate>
+		<phone>2125551212</phone>
+		<email>alex_moore@amd.com</email>
+	</employee>
+</employees>
